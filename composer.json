@@ -1,0 +1,21 @@
+{
+    "name": "destinylab/lottery-poetry-jinqiangua",
+    "description": "Lottery poetry - Jin Qian GuaJinQianGua（金錢卦）",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lance He",
+            "email": "indigofeather@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "destinylab/lottery-poetry-engine": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DestinyLab\\LotteryPoetry\\": "src/"
+        }
+    }
+}
